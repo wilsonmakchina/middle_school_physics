@@ -1,6 +1,7 @@
 site_name: 中學物理
 theme:
   name: material
+  logo: assets/images/abc.png
   language: zh-TW
   palette:
     # Light mode
