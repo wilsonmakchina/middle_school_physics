@@ -82,3 +82,27 @@
         $$
         n = \frac{3 \times 10^8}{2 \times 10^8} = 1.5
         $$
+
+---
+
+#### **折射的思維導圖**
+
+以下是關於光的折射的思維導圖，幫助你更好地組織和理解這一概念：
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#ffffff', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#ffffff'}}}%%
+mindmap
+  root((光的折射))
+    子節點1(折射現象)
+      子節點1A(光速變化)
+      子節點1B(介質折射率)
+    子節點2(折射例子)
+      子節點2A(筷子在水中)
+      子節點2B(游泳池深度)
+      子節點2C(太陽能水瓶)
+      子節點2D(海豹形狀)
+      子節點2E(眼鏡矯正)
+    子節點3(折射公式)
+      子節點3A(斯涅耳定律)
+      子節點3B(折射率公式)
+```
