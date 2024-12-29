@@ -1,33 +1,34 @@
 site_name: 中學物理
 theme:
   name: material
-markdown_extensions:
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.superfences
-  - pymdownx.arithmatex
-  - pymdownx.details
-  - pymdownx.tabbed
-  - pymdownx.tasklist
-  - pymdownx.tilde
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.emoji
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.tasklist
-  - pymdownx.tilde
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.emoji
-  - pymdownx.snippets
-extra_javascript:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  language: zh-TW
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode    
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+nav:
+  - 首頁: index.md
+  - 光的折射: refraction.md
+  # 其他章節...
+
+extra_css:
+  - stylesheets/extra.css
