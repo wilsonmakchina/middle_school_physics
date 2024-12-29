@@ -1,0 +1,242 @@
+:root {
+    --md-primary-green: #2e7d32;
+    --md-primary-green-light: #4caf50;
+    --md-primary-green-dark: #1b5e20;
+    --md-accent-green: #81c784;
+}
+
+/* Better spacing and readability */
+.md-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Enhance typography */
+.md-content article {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Navigation styling */
+.md-nav__link:active,
+.md-nav__link:hover,
+.md-nav__link--active {
+    color: var(--md-primary-green);
+}
+
+/* Better headings */
+.md-content h1 {
+    color: var(--md-primary-green);
+    font-weight: 700;
+    border-bottom: 2px solid var(--md-primary-green);
+    padding-bottom: .5rem;
+}
+
+.md-content h2 {
+    color: #2e7d32;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin: 2rem 0 1.5rem;
+}
+
+/* Better code blocks */
+.highlight {
+    background-color: #f1f8e9 !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+
+[data-md-color-scheme="slate"] .highlight {
+    background-color: #1a2f1a !important;
+}
+
+/* Better tables */
+.md-typeset table:not([class]) {
+    box-shadow: 0 2px 6px rgba(0,0,0,.1);
+    border-radius: 8px;
+}
+
+.md-typeset table:not([class]) th {
+    background-color: var(--md-primary-green-light);
+    color: white;
+}
+
+/* Better blockquotes */
+.md-typeset blockquote {
+    border-left: 4px solid var(--md-primary-green);
+    background-color: #f1f8e9;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+    background-color: #1a2f1a;
+}
+
+/* Links */
+.md-content a {
+    color: #2e7d32;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.md-content a:hover {
+    color: #43a047;
+    border-bottom-color: #43a047;
+}
+
+/* Top navigation */
+.md-header {
+    background-color: var(--md-primary-green);
+}
+
+/* Sidebar */
+.md-nav__title {
+    color: var(--md-primary-green) !important;
+}
+
+/* Buttons and interactive elements */
+.md-button {
+    background-color: var(--md-primary-green) !important;
+    border-color: var(--md-primary-green) !important;
+    color: white !important;
+}
+
+.md-button:hover {
+    background-color: var(--md-primary-green-light) !important;
+    border-color: var(--md-primary-green-light) !important;
+}
+
+/* Search box */
+.md-search__input {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.md-search__input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Smooth transitions */
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Footer styling */
+.md-footer {
+    background-color: var(--md-primary-green-dark);
+}
+
+/* Admonitions with green accents */
+.md-typeset .admonition {
+    border-left: 4px solid var(--md-primary-green);
+    border-radius: 8px;
+}
+
+.md-typeset .admonition-title {
+    background-color: rgba(46, 125, 50, 0.1);
+}
+
+/* Code copy button */
+.md-clipboard {
+    color: var(--md-primary-green);
+}
+
+.md-clipboard:hover {
+    color: var(--md-primary-green-light);
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+    color: white;
+    margin: -2rem -2rem 2rem -2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.8rem;
+    opacity: 0.9;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(46, 125, 50, 0.2);
+    border-color: #4caf50;
+}
+
+.feature-card h3 {
+    font-size: 1.8rem;
+    color: #2e7d32;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 0.5rem;
+}
+
+.feature-card li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 0.8rem;
+    color: #333;
+}
+
+/* Emoji size adjustment */
+.feature-card h3 emoji {
+    font-size: 2rem;
+}
+
+/* Navigation enhancement */
+.md-nav {
+    font-size: 1.1rem;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.4rem;
+    }
+    
+    .feature-card h3 {
+        font-size: 1.5rem;
+    }
+    
+    .feature-card li {
+        font-size: 1.1rem;
+    }
+    
+    .md-content {
+        font-size: 1.1rem;
+    }
+} 
