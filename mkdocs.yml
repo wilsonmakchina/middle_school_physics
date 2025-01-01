@@ -54,7 +54,9 @@ plugins:
 
 nav:
   - 首頁: index.md
-  - 光的折射: refraction.md
+  - 光的折射: 
+    - 基本概念: refraction.md
+    - 練習題目: refraction_QA.md
   # 其他章節...
 
 extra_css:
