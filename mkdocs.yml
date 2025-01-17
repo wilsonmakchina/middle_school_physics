@@ -59,6 +59,8 @@ nav:
     - 練習題目: refraction_QA.md
   - 向心力:
     - 基本概念: centripetal_force/centripetal_force_outline.md
+    - 向心力與離心力的分別: centripetal_force/difference_between_centripetal_and_centrifugal_force.md
+    - 練習題目: centripetal_force/centripetal_force_QA.md
   # 其他章節...
 
 extra_css:

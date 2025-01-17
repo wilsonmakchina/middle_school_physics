@@ -81,8 +81,16 @@
 
 ---
 
-#### 12. **Further Reading and Resources**  
-   - Textbooks and online resources - 教科書與線上資源  
-   - Videos and simulations demonstrating circular motion - 演示圓周運動的影片與模擬  
-   - Advanced topics for deeper exploration - 深入探索的進階主題  
+#### 12. **練習題目**
+
+想測試一下你對向心力的理解？
+
+👉 [前往練習題目](centripetal_force_QA.md)
+
+在練習題目中，你可以：
+- 挑戰由淺入深的題目
+- 學習詳細的解題步驟
+- 鞏固你的物理概念
+
+
 
