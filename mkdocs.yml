@@ -57,6 +57,8 @@ nav:
   - 光的折射: 
     - 基本概念: refraction.md
     - 練習題目: refraction_QA.md
+  - 向心力:
+    - 基本概念: centripetal_force/centripetal_force_outline.md
   # 其他章節...
 
 extra_css:

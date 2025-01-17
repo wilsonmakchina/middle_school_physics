@@ -40,6 +40,7 @@
 揀以下任何一個課題，開始你嘅物理學習之旅：
 
 - [光的折射](refraction.md) - 睇下光線點樣穿越唔同介質（包括練習題目）
+- [向心力](centripetal_force/centripetal_force_outline.md) - 探索圓周運動嘅神秘力量
 - [力學原理](mechanics.md) - 了解牛頓運動定律
 - [熱學](thermodynamics.md) - 探索熱能同溫度嘅關係
 
