@@ -56,6 +56,7 @@ nav:
   - 首頁: index.md
   - 光的折射: 
     - 基本概念: refraction.md
+    - 全內反射: total_internal_reflection.md
     - 練習題目: refraction_QA.md
   - 向心力:
     - 基本概念: centripetal_force/centripetal_force_outline.md
